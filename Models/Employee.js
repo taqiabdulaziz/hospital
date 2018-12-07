@@ -12,6 +12,7 @@ class Employee {
 
         db.run(insert, function (err) {
             err && cb(err)
+            
         })
     }
 }
